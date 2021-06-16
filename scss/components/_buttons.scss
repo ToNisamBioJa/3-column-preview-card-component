@@ -1,0 +1,35 @@
+.btn {
+  background: $very-light-gray;
+  border-radius: 50px;
+  padding: 1em 2em;
+
+  &__sedans {
+    color: $bright-orange;
+
+    &:hover {
+      color: #fff;
+      background-color: $bright-orange;
+      border: 2px solid #fff;
+    }
+  }
+
+  &__suvs {
+    color: $dark-cyan;
+
+    &:hover {
+      color: #fff;
+      background-color: $dark-cyan;
+      border: 2px solid #fff;
+    }
+  }
+
+  &__luxury {
+    color: $very-dark-cyan;
+
+    &:hover {
+      color: #fff;
+      background-color: $very-dark-cyan;
+      border: 2px solid #fff;
+    }
+  }
+}

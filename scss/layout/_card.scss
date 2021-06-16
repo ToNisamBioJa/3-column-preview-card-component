@@ -1,0 +1,33 @@
+.card {
+  padding: 4em 3.75em 4em 2em;
+
+  &__title {
+    font-size: 2.3rem;
+    font-family: "Big Shoulders Display", sans-serif;
+    color: $very-light-gray;
+    text-transform: uppercase;
+    margin: 1.7rem 0;
+  }
+
+  &__text {
+    margin-bottom: 3em;
+    line-height: 1.6;
+    color: $transparent-white;
+  }
+}
+
+.sedans {
+  background: $bright-orange;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.suvs {
+  background: $dark-cyan;
+}
+
+.luxury {
+  background: $very-dark-cyan;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
